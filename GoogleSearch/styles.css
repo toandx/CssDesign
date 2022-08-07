@@ -18,6 +18,12 @@ li a {
 li a:hover {
   text-decoration: underline;
 }
+.search-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	align-items:center;
+}
 .grid{
   height:23px;
   position:relative;
@@ -34,7 +40,7 @@ li a:hover {
   font-weight:bold;
 }
 .logo{
-  margin-top:200px;
+  margin-top: 150px;
   margin-bottom:20px;
 }
 .bar{
@@ -42,6 +48,9 @@ li a:hover {
   width:575px;
   border-radius:30px;
   border:1px solid #dcdcdc;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
 }
 .bar:hover{
   box-shadow: 1px 1px 8px 1px #dcdcdc;
@@ -61,8 +70,9 @@ li a:hover {
 .voice{
   height:20px;
   position:relative;
-  top:5px;
+  top:12px;
   left:10px;
+	
 }
 .buttons{
   margin-top:30px;
