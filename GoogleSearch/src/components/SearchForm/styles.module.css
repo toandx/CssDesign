@@ -1,43 +1,8 @@
-ul {
-  list-style-type: none;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-}
-
-li a {
-  color: #000;
-  display: block;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-size:14px;
-}
-li a:hover {
-  text-decoration: underline;
-}
-.search-container{
+.searchContainer{
 	display:flex;
 	flex-direction:column;
 	justify-content:flex-end;
 	align-items:center;
-}
-.grid{
-  height:23px;
-  position:relative;
-  bottom:4px;
-}
-.signbutton{
-  background-color: #4885ed;
-  color: #fff;
-  border:none;
-  border-radius:3px;
-  padding:7px 10px;
-  position:relative;
-  bottom:7px;
-  font-weight:bold;
 }
 .logo{
   margin-top: 150px;
@@ -96,4 +61,3 @@ li a:hover {
   border:1px solid #4885ed;
   padding: 9px 19px;
 }
-

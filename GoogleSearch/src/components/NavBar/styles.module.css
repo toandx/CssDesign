@@ -1,0 +1,63 @@
+.header{
+  list-style-type: none;
+  overflow: hidden;
+}
+.grid{
+  height:23px;
+  position:relative;
+  bottom:4px;
+}
+.signbutton{
+  background-color: #4885ed;
+  color: #fff;
+  display: block;
+  text-align: center;
+  border:none;
+  border-radius:3px;
+  position:relative;
+  bottom:7px;
+  padding: 10px 10px;
+  font-weight:bold;
+  float: right;
+}
+ul.footer{
+  align-self: flex-end;
+  background-color:red;
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+
+li a {
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size:14px;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.circle {
+        margin:0;
+        padding:0;
+        background: lightblue;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display:flex;
+        float: right;
+        justify-content:center;
+        align-items:center;
+      }
+      .circle p {
+        font-size: 15px;
+        text-align: center;
+        
+      }
+
